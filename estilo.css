@@ -1,0 +1,126 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin:15px;
+    padding:20px;
+    box-sizing: border-box;
+    background-image: url(img/fondo.jpg);
+    border: 3px solid #B6C4CF;
+    color: #303130;
+}
+body {
+   background-color: #F0F0F0; 
+}
+#cabecera{
+    border-bottom:2px solid #303130;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 ;
+    font-size: 125%;
+    color: #00ACF0;
+}
+#cabecera img{
+    border-radius: 50%;
+    width: 150px;
+}
+h1{
+    text-shadow: 0 12px 12px rgba(0, 0, 0, 0.400);
+    background-color: white;
+}
+#créditos {
+    display: flex;               
+    justify-content: flex-end;   
+}
+
+#créditos p {
+    font-style: italic;
+    font-weight: bold;
+    background-color: white;     
+    display: inline-block;       
+    margin: 15px 0;                   
+}
+.subtítulo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.definición{
+    font-size: 125%;
+}
+.bloque {
+    border:4px solid #303130;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+.bloque img{
+    width: 65px;
+    margin: auto auto 10px auto; 
+}
+.caja {
+    flex: 1;
+    border: 2px solid gray;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+}
+.html{
+    background-color: #F2EDEC;
+}
+.html h4{
+    background-color: #D94625;   
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
+    margin:0px
+}
+.css{
+    background-color: #E7EAEE;
+}
+.css h4{
+    background-color: #0476BE;   
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
+    margin:0px
+}
+.java{
+    background-color: #E9EDE1;
+}
+.java h4{
+    background-color: #6AA714;   
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0px;
+    margin:0px
+}
+#bloque4 img{
+    width: 00px;
+    border: 2px solid gray;
+    text-align: center;
+    display: block; 
+    margin: 15px auto;
+    box-shadow: 15px 15px 6px rgba(0, 0, 0, 0.5);
+}
+#pie {
+    border-top:2px solid #303130;
+    margin: 30px 0
+}
+#pie p {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-style: italic;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+}
